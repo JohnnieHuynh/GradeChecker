@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.finalproject5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:5:5-44:19
+12        android:allowBackup="true"
+12-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/johnny/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="Grade Checker"
+16-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:8:9-38
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.finalproject5.Login2Activity" />
+20-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:12:9-61
+20-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:12:19-49
+21        <activity android:name="com.example.finalproject5.View.AssignmentDetails" />
+21-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:13:9-69
+21-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:13:19-57
+22        <activity
+22-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:14:9-16:72
+23            android:name="com.example.finalproject5.View.EditUserActivity"
+23-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:15:13-50
+24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+24-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:16:13-69
+25        <activity android:name="com.example.finalproject5.View.Create_Assignment" />
+25-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:17:9-60
+25-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:17:19-57
+26        <activity android:name="com.example.finalproject5.View.CourseView" />
+26-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:18:9-53
+26-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:18:19-50
+27        <activity
+27-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:19:9-22:72
+28            android:name="com.example.finalproject5.UserActivity"
+28-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:20:13-41
+29            android:label="@string/title_text"
+29-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:21:13-47
+30            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+30-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:22:13-69
+31        <activity
+31-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:23:9-26:47
+32            android:name="com.example.finalproject5.View.Create_Class"
+32-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:24:13-46
+33            android:label="@string/title_activity_create__class"
+33-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:25:13-65
+34            android:theme="@style/AppTheme" />
+34-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:26:13-44
+35        <activity android:name="com.example.finalproject5.View.CreateAccountInfo" />
+35-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:27:9-60
+35-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:27:19-57
+36        <activity android:name="com.example.finalproject5.View.MainActivity" >
+36-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:28:9-34:20
+36-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:28:19-52
+37            <intent-filter>
+37-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:30:17-69
+38-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:32:17-77
+40-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:35:9-43:20
+44            android:name="com.example.finalproject5.View.LoginActivity"
+44-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:36:13-47
+45            android:label="finalproject5" >
+45-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:37:13-42
+46            <intent-filter>
+46-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:38:13-42:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:30:17-69
+47-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:30:25-66
+48
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:41:17-76
+49-->/Users/johnny/Desktop/GitHub/GradeChecker/GradeChecker/app/src/main/AndroidManifest.xml:41:27-73
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[androidx.room:room-runtime:2.2.3] /Users/johnny/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+54            android:name="androidx.room.MultiInstanceInvalidationService"
+54-->[androidx.room:room-runtime:2.2.3] /Users/johnny/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.3] /Users/johnny/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+56    </application>
+57
+58</manifest>
