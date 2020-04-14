@@ -1,3 +1,4 @@
+***** Errors with connecting correct version of the application - Currently Fixing ********
 
 # GradeChecker
 
